@@ -1,9 +1,8 @@
-@import "config/reset"
-@import "config/cores"
-@import "sessoes/produtos"
+@use "config/reset"
+@use "config/cores"
 
 body
-    background-color: $fundo-1
+    background-color: cores.$fundo-1
 
 li
     list-style-type: none
@@ -14,7 +13,7 @@ li
     margin: 0 auto
 
 header
-    background-color: $fundo-2
+    background-color: cores.$fundo-2
     position: sticky
     top: 0
     left: 0
@@ -33,7 +32,7 @@ header
         margin-left: 24px
 
         a
-            color: $texto-1
+            color: cores.$texto-1
             text-decoration: none
 
 section
